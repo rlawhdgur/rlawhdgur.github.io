@@ -75,6 +75,125 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-2022/12/HexoBlog" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/12/21/2022/12/HexoBlog/" class="article-date">
+  <time class="dt-published" datetime="2022-12-21T06:34:25.000Z" itemprop="datePublished">2022-12-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>►<a class="article-category-link" href="/categories/Hexo/Baseball/">Baseball</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/12/21/2022/12/HexoBlog/">Hexo 블로그 만들기</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Hexo-블로그-만들기"><a href="#Hexo-블로그-만들기" class="headerlink" title="Hexo 블로그 만들기"></a>Hexo 블로그 만들기</h1><h2 id="Hexo-Blog-만들기"><a href="#Hexo-Blog-만들기" class="headerlink" title="Hexo Blog 만들기"></a>Hexo Blog 만들기</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://dschloe.github.io/settings/hexo_blog/">https://dschloe.github.io/settings/hexo_blog&#x2F;</a></li>
+</ul>
+<h2 id="필수-파일-설치"><a href="#필수-파일-설치" class="headerlink" title="필수 파일 설치"></a>필수 파일 설치</h2><h3 id="node-js-다운로드"><a href="#node-js-다운로드" class="headerlink" title="node.js 다운로드"></a>node.js 다운로드</h3><ul>
+<li><p>node.js 검색 및 다운로드</p>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled.png" alt="Untitled"></p>
+</li>
+<li><p>Add to PATH 클릭 후 다운로드</p>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled%201.png" alt="Untitled"></p>
+</li>
+<li><p>node.js 설치 완료 후 간단하게 확인해본다.</p>
+<ul>
+<li><strong>$ node -v</strong></li>
+</ul>
+</li>
+</ul>
+<h3 id="Git-다운로드"><a href="#Git-다운로드" class="headerlink" title="Git 다운로드"></a>Git 다운로드</h3><ul>
+<li>git 설치 완료 후 간단하게 확인해본다.<ul>
+<li><strong>$ git —version</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/2022/12/HexoBlog/Untitled%202.png" alt="Untitled"></p>
+<h3 id="Hexo-설치"><a href="#Hexo-설치" class="headerlink" title="Hexo 설치"></a>Hexo 설치</h3><ul>
+<li>아래의 코드를 입력해 hexo설치를 한다.<ul>
+<li><strong>$ npm install -g hexo-cli</strong></li>
+</ul>
+</li>
+</ul>
+<p><img src="/images/2022/12/HexoBlog/Untitled%203.png" alt="Untitled"></p>
+<p><img src="/images/2022/12/HexoBlog/Untitled%204.png" alt="Untitled"></p>
+<h2 id="Github에서-Repositories-생성"><a href="#Github에서-Repositories-생성" class="headerlink" title="Github에서 Repositories 생성"></a>Github에서 Repositories 생성</h2><ul>
+<li>Repository name에서 Owner 이름과 같게 만들어야 한다.</li>
+<li><strong>Owner.github.io</strong></li>
+</ul>
+<p><img src="/images/2022/12/HexoBlog/Untitled%205.png" alt="Untitled"></p>
+<h2 id="블로그-만들기"><a href="#블로그-만들기" class="headerlink" title="블로그 만들기"></a>블로그 만들기</h2><ul>
+<li><p><strong>$ hexo init myblog</strong></p>
+</li>
+<li><p><strong>$ cd myblog</strong></p>
+</li>
+<li><p><strong>$ npm install</strong></p>
+</li>
+<li><p><strong>$ npm install hexo-server —sava</strong></p>
+</li>
+<li><p><strong>$ npm install hexo-deployer-git —sava</strong></p>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled%206.png" alt="Untitled"></p>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled%207.png" alt="Untitled"></p>
+</li>
+</ul>
+<h2 id="myblog-Visual-Studio-Code"><a href="#myblog-Visual-Studio-Code" class="headerlink" title="myblog Visual Studio Code"></a>myblog Visual Studio Code</h2><ul>
+<li>블로그 URL 정보 설정을 한다.</li>
+</ul>
+<p><img src="/images/2022/12/HexoBlog/Untitled%208.png" alt="Untitled"></p>
+<ul>
+<li>Github 연동 설정을 한다.</li>
+</ul>
+<p><img src="/images/2022/12/HexoBlog/Untitled%209.png" alt="Untitled"></p>
+<h2 id="Github에-배포하기"><a href="#Github에-배포하기" class="headerlink" title="Github에 배포하기"></a>Github에 배포하기</h2><ul>
+<li><p>배포 전, <a target="_blank" rel="noopener" href="http://localhost:4000/">localhost:4000</a> 접속을 통해 화면이 나오는지 확인해본다.</p>
+</li>
+<li><p><strong>$ hexo server</strong></p>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled%2010.png" alt="Untitled"></p>
+<ul>
+<li>$ <strong>hexo generate</strong></li>
+</ul>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled%2011.png" alt="Untitled">
+  </p>
+</li>
+<li><p>화면 확인이 된 이후에는 github에 배포한다.</p>
+</li>
+<li><p><strong>$ hexo deploy</strong></p>
+<p>  <img src="/images/2022/12/HexoBlog/Untitled%2012.png" alt="Untitled"></p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://rlawhdgur.github.io/2022/12/21/2022/12/HexoBlog/" data-id="clbxa5kz60000k4u805lybgd2" data-title="Hexo 블로그 만들기" class="article-share-link">Share</a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Fight/" rel="tag">Fight</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Shocking/" rel="tag">Shocking</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-java_install" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/12/21/java_install/" class="article-date">
@@ -290,7 +409,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/R/">R</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/R/Baseball/">Baseball</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Sports/">Sports</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Sports/Baseball/">Baseball</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Baseball/">Baseball</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/R/">R</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/R/Baseball/">Baseball</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/Sports/">Sports</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Sports/Baseball/">Baseball</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -300,7 +419,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fight/" rel="tag">Fight</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Injury/" rel="tag">Injury</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/R/" rel="tag">R</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shocking/" rel="tag">Shocking</a></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Fight/" rel="tag">Fight</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Injury/" rel="tag">Injury</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/R/" rel="tag">R</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Shocking/" rel="tag">Shocking</a></li></ul>
     </div>
   </div>
 
@@ -310,7 +429,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Fight/" style="font-size: 20px;">Fight</a> <a href="/tags/Injury/" style="font-size: 10px;">Injury</a> <a href="/tags/R/" style="font-size: 15px;">R</a> <a href="/tags/Shocking/" style="font-size: 20px;">Shocking</a>
+      <a href="/tags/Fight/" style="font-size: 20px;">Fight</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a> <a href="/tags/Injury/" style="font-size: 10px;">Injury</a> <a href="/tags/R/" style="font-size: 15px;">R</a> <a href="/tags/Shocking/" style="font-size: 20px;">Shocking</a>
     </div>
   </div>
 
@@ -330,6 +449,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2022/12/21/2022/12/HexoBlog/">Hexo 블로그 만들기</a>
+          </li>
         
           <li>
             <a href="/2022/12/21/java_install/">자바 설치 방법</a>
